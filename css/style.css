@@ -1,0 +1,23 @@
+body{
+    margin:0px;
+}
+.special-color{
+    color: coral;
+}
+.half-width{
+    float: left;
+    margin-left: 5%;
+    padding-left: 2%;
+    width: 40%;
+
+}
+section{
+    height: 500px;
+}
+.half-width img{
+    width: 100%;
+   
+}
+h2{
+    font-size: 40px;
+}
