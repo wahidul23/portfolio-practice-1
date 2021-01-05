@@ -1,5 +1,10 @@
 body{
     margin:0px;
+    font-family: 'Poppins', sans-serif;
+}
+.top-banner{
+    background-image: url('../images/top-banner.png');
+    background-repeat: no-repeat;
 }
 .special-color{
     color: coral;
@@ -9,6 +14,7 @@ body{
     margin-left: 5%;
     padding-left: 2%;
     width: 40%;
+    
 
 }
 section{
@@ -20,4 +26,78 @@ section{
 }
 h2{
     font-size: 40px;
+}
+
+.link-button{
+    border-radius: 5px;
+    background-image: linear-gradient(45deg, lightsalmon, tomato);
+    text-decoration: none;
+    color:white;
+    padding: 10px 20px;
+    font-weight: bold;
+}
+a:hover{
+    background-image:linear-gradient(to right, blue, indigo);
+    color: lightseagreen;
+}
+
+.dream-part{
+    background-image: url('../images/dream-bg.png');
+    background-repeat: no-repeat;
+    background-position: right;
+}
+.align{
+    text-align: center;
+    text-decoration: underline;
+
+    
+}
+    .shadow{
+    box-shadow: 10px 10px 15px gray;
+    height: 350px;
+    background-color: white;
+    border-radius: 10px;
+}
+.Experience-part{
+    background-image: url('../images/exp-bg.png');
+    background-repeat: no-repeat;
+    background-position: left;
+}
+#orange-border{
+    border-left: 7px solid;
+    
+    border-image: linear-gradient(180deg, lightsalmon, tomato);
+    border-image-slice: 1;
+}
+#blue-border{
+    border-left: 7px solid;
+    border-image: linear-gradient(180deg, blue, cyan);
+    border-image-slice: 1;
+}
+#bg-frontend{
+    background-color: royalblue;
+    background-image: linear-gradient(to right, royalblue, cyan);
+    border-radius: 10px;
+}
+.front-end-heading {
+    color:white;
+}
+.backend-heading{
+    color: white;
+}
+#bg-backend{
+    background-color:palegreen;
+    background-image: linear-gradient(to right, palegreen, lightblue);
+    border-radius: 10px;
+}
+p{
+    color:gray;
+}
+.skills p{
+    color: seashell;
+}
+footer{
+    text-align: center;
+    margin-top: 10px;
+    margin-bottom: 10px;
 }
